@@ -55,7 +55,9 @@ export const Recipes = () => {
         fetchRecipes()
     }, []);
     return (
+        // main container class 
         <Container>
+            {/* wrapper class added  */}
             <Wrapper>
                 {
                     recipes.map(recipe => (

@@ -46,6 +46,7 @@ padding:1.2rem;
 export const Recipes = () => {
     const [recipes, setRecipes] = useState([])
     const fetchRecipes = async () => {
+        //fetching APIs
         const response = await fetch("https://dummyjson.com/recipes")
         const data = await response.json()
         console.log(data)
@@ -66,6 +67,7 @@ export const Recipes = () => {
                             <RecipeName>{recipe.name}</RecipeName>
                             <br />
                             <SpanTagDiv>
+                                {/* different card details added  */}
                                 <SpanTag><strong>Prepration Time:</strong> {recipe.prepTimeMinutes} Mints.</SpanTag>
                                 <SpanTag><strong>Cooking time:</strong> {recipe.cookTimeMinutes} Mints.</SpanTag>
                                 <SpanTag><strong>Serving:</strong> {recipe.servings}</SpanTag>

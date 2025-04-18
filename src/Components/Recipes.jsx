@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import styled from "styled-components"
 
+// using styled component here 
 const Container = styled.div`
 border:1px dashed black;
 width:100%;

@@ -7,11 +7,14 @@ border:1px dashed black;
 width:100%;
 text-align:center;
 `
+
+// Wrapper styles starts here 
 const Wrapper = styled.div`
 display:flex;
 flex-wrap:wrap;
 gap:5%;
 `
+// card styline starts here
 const Card = styled.div`
 width:40%;
 height:max-height;
@@ -19,6 +22,7 @@ border:1px solid black;
 margin:2%;
 padding:1%;
 `
+// image styling starts here 
 const Image = styled.img`
 height:50%;
 width:60%;
@@ -30,15 +34,16 @@ transition:all .7s ease-in-out;
 opacity:1;
 }
 `
-
+// recipe heading starts here 
 const RecipeName = styled.h1`
 font-size:1.3rem;
 position:absolute;
 `
+// span tag div container 
 const SpanTagDiv = styled.div`
 margin-top:2rem;
-
 `
+// span tag span element styling starts here 
 const SpanTag = styled.span`
 color:#FFFFFF;
 padding:1.2rem;

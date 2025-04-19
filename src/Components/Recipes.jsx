@@ -14,7 +14,7 @@ display:flex;
 flex-wrap:wrap;
 gap:5%;
 `
-// card styline starts here
+// card styling starts here
 const Card = styled.div`
 width:40%;
 height:max-height;

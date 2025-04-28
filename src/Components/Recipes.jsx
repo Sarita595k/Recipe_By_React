@@ -81,6 +81,7 @@ export const Recipes = () => {
                                 <SpanTag><strong>Calories:</strong> {recipe.caloriesPerServing}</SpanTag>
                                 <SpanTag><strong>Ratings:</strong> {recipe.rating}</SpanTag>
                             </SpanTagDiv>
+                            {/* to get list of recipes  */}
                             <li key={recipe.id}><strong>Ingredients:</strong>
                                 {recipe.ingredients.map(ingredient =>
                                     <span key={ingredient}>{ingredient},</span>
